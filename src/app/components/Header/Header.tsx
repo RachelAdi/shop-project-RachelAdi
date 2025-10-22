@@ -1,5 +1,6 @@
 "use client";
 import styles from "./Header.module.css";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -12,7 +13,7 @@ export default function Header() {
       </div>
       <nav className={styles.nav}>
         <a href="#">Home</a>
-        <a href="#">Products</a>
+        <Link href="/products">Products</Link>
         <a href="#">Contact</a>
       </nav>
     </header>
