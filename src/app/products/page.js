@@ -1,13 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
 import ProductGrid from "../components/ProductsGrid/ProductsGrid";
-import { getProducts } from '../services/client/products';
+import { getProducts } from "../services/client/products";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    getProducts().then(data => setProducts(data));
+    getProducts().then((data) => setProducts(data));
   }, []);
 
   return (
