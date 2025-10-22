@@ -1,8 +1,7 @@
-
 import styles from "./ProductCard.module.css";
 
 type Product = {
-  id: number;
+  _id: string;
   name: string;
   price: number;
   description: string;
