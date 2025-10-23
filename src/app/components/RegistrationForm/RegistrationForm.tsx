@@ -15,7 +15,6 @@ export default function RegistrationForm() {
     birthDate: "",
   });
 
-  // Validation functions
   const validateFullName = (value: string) => {
     const words = value.trim().split(" ");
     if (words.length < 2) return "Full name must contain at least 2 words";
@@ -47,7 +46,6 @@ export default function RegistrationForm() {
     return "";
   };
 
-  // Handlers
   const handleFullName = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFullName(e.target.value);
     setErrors((prev) => ({
@@ -91,7 +89,6 @@ export default function RegistrationForm() {
 
     if (!fullNameError && !phoneError && !emailError && !birthDateError) {
       alert("Registration successful!");
-      // Reset form
       setFullName("");
       setPhone("");
       setEmail("");

@@ -10,18 +10,18 @@
 }
 
 .logo img {
-  height: 50px; /* אפשר לשנות לפי גודל הלוגו */
+  height: 70px;
   width: auto;
 }
 
 .nav a {
   margin-left: 1.5rem;
   text-decoration: none;
-  color: #3e5c37; /* צבע הטקסט */
+  color: #3e5c37;
   font-weight: 500;
 }
 
 .nav a:hover {
-  color: #6a7c58; /* גוון ירוק קצת יותר בהיר לאפקט hover */
+  color: #6a7c58;
   transition: 0.3s;
 }

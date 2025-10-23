@@ -1,10 +1,9 @@
-
 .form {
-  background-color: transparent; /* אין רקע */
-  padding: 0; /* אין padding גדול */
-  border-radius: 0; /* אין מסגרת */
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
   max-width: 400px;
-  margin: 40px auto 80px auto; /* מרווח עליון מתחת לכרטיסים, ותחתון כדי שה-footer לא יתנגש */
+  margin: 40px auto 80px auto;
   display: flex;
   flex-direction: column;
 }
@@ -32,7 +31,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 6px 10px;
-  background-color: #f5edde; /* צבע רקע כמו האתר */
+  background-color: #f5edde;
 }
 
 .input:focus {

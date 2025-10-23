@@ -8,7 +8,6 @@ type Product = {
   image: string;
 };
 
-// טיפוס לפרופס של ProductsGrid
 type ProductsGridProps = {
   products: Product[];
 };
