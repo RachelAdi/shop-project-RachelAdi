@@ -20,5 +20,13 @@ async function run() {
   } finally {
   }
 }
+async function r() {
+  try {
+    await clientPromise.connect();
+    (await clientPromise) / db("admin").command({ ping: 1 });
+    console.log("good");
+  } finally {
+  }
+}
 run().catch(console.dir);
 export default clientPromise;
